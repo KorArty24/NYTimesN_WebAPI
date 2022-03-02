@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.Api", "NewYorkTimes.Api\NewYorkTimes.Api.csproj", "{5DD59D68-B83A-43F6-8C50-8601AFE48E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.Communication", "NewYorkTimes.Communication\NewYorkTimes.Communication.csproj", "{ADE96855-402F-465E-9DBB-1A9FC2140917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.BLL", "NewYorkTimes.BLL\NewYorkTimes.BLL.csproj", "{8E1A3C54-B8E0-4153-B001-2AB7B4B93D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.Models", "NewYorkTimes.Models\NewYorkTimes.Models.csproj", "{F45ED363-363A-4AC4-8785-FC8071D729C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.Api.Tests", "NewYorkTimes.Api.Tests\NewYorkTimes.Api.Tests.csproj", "{72288CBB-5E6B-4C25-9092-1752E07C3C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.BLL.Tests", "NewYorkTimes.BLL.Tests\NewYorkTimes.BLL.Tests.csproj", "{9552001E-920F-466A-8858-D43F63B635AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYorkTimes.Communication.Tests", "NewYorkTimes.Communication.Tests\NewYorkTimes.Communication.Tests.csproj", "{8B5AD048-2C92-4112-A6BC-E8D1955BE203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD59D68-B83A-43F6-8C50-8601AFE48E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD59D68-B83A-43F6-8C50-8601AFE48E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD59D68-B83A-43F6-8C50-8601AFE48E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD59D68-B83A-43F6-8C50-8601AFE48E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE96855-402F-465E-9DBB-1A9FC2140917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE96855-402F-465E-9DBB-1A9FC2140917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE96855-402F-465E-9DBB-1A9FC2140917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE96855-402F-465E-9DBB-1A9FC2140917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1A3C54-B8E0-4153-B001-2AB7B4B93D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1A3C54-B8E0-4153-B001-2AB7B4B93D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1A3C54-B8E0-4153-B001-2AB7B4B93D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1A3C54-B8E0-4153-B001-2AB7B4B93D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45ED363-363A-4AC4-8785-FC8071D729C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45ED363-363A-4AC4-8785-FC8071D729C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45ED363-363A-4AC4-8785-FC8071D729C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45ED363-363A-4AC4-8785-FC8071D729C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72288CBB-5E6B-4C25-9092-1752E07C3C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72288CBB-5E6B-4C25-9092-1752E07C3C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72288CBB-5E6B-4C25-9092-1752E07C3C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72288CBB-5E6B-4C25-9092-1752E07C3C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9552001E-920F-466A-8858-D43F63B635AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9552001E-920F-466A-8858-D43F63B635AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9552001E-920F-466A-8858-D43F63B635AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9552001E-920F-466A-8858-D43F63B635AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5AD048-2C92-4112-A6BC-E8D1955BE203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5AD048-2C92-4112-A6BC-E8D1955BE203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5AD048-2C92-4112-A6BC-E8D1955BE203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5AD048-2C92-4112-A6BC-E8D1955BE203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1944B559-256E-4236-93DA-F5BA5FA1B03A}
+	EndGlobalSection
+EndGlobal
